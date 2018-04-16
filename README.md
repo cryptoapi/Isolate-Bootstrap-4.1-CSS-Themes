@@ -25,7 +25,7 @@ To use Bootstrap CSS, simply wrap your HTML in a div with the class bootstrapiso
 </div>
 ```
 
-And use any css style from folder css4.1 like
+And use any css style from folder css4.1 like so:
 ```html
 <head>
 <link rel="stylesheet" href="css4.1/bootstrapcustom.min.css" crossorigin="anonymous">
@@ -35,21 +35,53 @@ And use any css style from folder css4.1 like
 
 Done!
 
+## Empty Bootstrap4 page example - 
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <title>Page1</title>
+
+    <!-- Isolated Bootstrap4 CSS - -->
+    <link rel="stylesheet" href="css4.1/bootstrapcustom.min.css" crossorigin="anonymous">   
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+  <div class="bootstrapiso">
+  <!-- Any HTML here will be styled with Bootstrap CSS -->
+  </div>
+
+  </body>
+</html>
+```
+    
 
 ## Isolate Bootstrap 4.1 CSS Styles in folder css4.1
 
-- bootstrapcustom.min.css - default bootstrap isolate 4.1 style, https://getbootstrap.com/docs/4.1/examples/pricing/
-- cerulean.min.css - isolate css based on https://bootswatch.com/cerulean/
-- darkly.min.css - isolate css https://bootswatch.com/darkly/
-- flatly.min.css - isolate css https://bootswatch.com/flatly/
-- litera.min.css - isolate css https://bootswatch.com/litera/
-- lux.min.css - isolate css https://bootswatch.com/lux/
-- minty.min.css - isolate css https://bootswatch.com/minty/
-- pulse.min.css - isolate css https://bootswatch.com/pulse/
-- sandstone.min.css - isolate css https://bootswatch.com/sandstone/
-- sketchy.min.css - isolate css https://bootswatch.com/sketchy/
-- solar.min.css - isolate css https://bootswatch.com/solar/
-- superhero.min.css - isolate css https://bootswatch.com/superhero/
-- united.min.css - isolate css https://bootswatch.com/united/
+- bootstrapcustom.min.css - default bootstrap 4.1 isolated style, demo https://getbootstrap.com/docs/4.1/examples/pricing/
+- cerulean.min.css - isolated css based on https://bootswatch.com/cerulean/
+- darkly.min.css - isolated css https://bootswatch.com/darkly/
+- flatly.min.css - isolated css https://bootswatch.com/flatly/
+- litera.min.css - isolated css https://bootswatch.com/litera/
+- lux.min.css - isolated css https://bootswatch.com/lux/
+- minty.min.css - isolated css https://bootswatch.com/minty/
+- pulse.min.css - isolated css https://bootswatch.com/pulse/
+- sandstone.min.css - isolated css https://bootswatch.com/sandstone/
+- sketchy.min.css - isolated css https://bootswatch.com/sketchy/
+- solar.min.css - isolated css https://bootswatch.com/solar/
+- superhero.min.css - isolated css https://bootswatch.com/superhero/
+- united.min.css - isolated css https://bootswatch.com/united/
 
   
