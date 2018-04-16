@@ -68,12 +68,14 @@ Done!
 
   </body>
 </html>
-``` 
+```
  
 .
-    
+   
+.
+ 
 
-## Isolate Bootstrap 4.1 CSS Styles in folder css4.1
+## Isolated Bootstrap 4.1 CSS Styles in folder css4.1
 
 - bootstrapcustom.min.css - default bootstrap 4.1 isolated style, demo https://getbootstrap.com/docs/4.1/examples/pricing/
 - cerulean.min.css - isolated css based on https://bootswatch.com/cerulean/
@@ -88,5 +90,5 @@ Done!
 - solar.min.css - isolated css https://bootswatch.com/solar/
 - superhero.min.css - isolated css https://bootswatch.com/superhero/
 - united.min.css - isolated css https://bootswatch.com/united/
-
-  
+   
+ 
