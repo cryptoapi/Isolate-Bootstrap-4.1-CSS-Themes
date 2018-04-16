@@ -34,6 +34,9 @@ And use any css style from folder css4.1 like so:
 ```
 
 Done!
+ 
+.
+
 
 ## Empty Bootstrap4 page example - 
 ```html
@@ -65,7 +68,9 @@ Done!
 
   </body>
 </html>
-```
+``` 
+ 
+.
     
 
 ## Isolate Bootstrap 4.1 CSS Styles in folder css4.1
