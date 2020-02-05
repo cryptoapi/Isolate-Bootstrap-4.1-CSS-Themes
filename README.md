@@ -5,7 +5,7 @@
 .
 
 
-# How to Isolate Bootstrap CSS to Avoid Conflicts
+# How to Isolate Bootstrap 4.4.1 CSS to Avoid Conflicts
 
 Bootstrap is the most popular CSS framework on the web. It makes it incredibly easy to create beautiful, responsive designs that just work. 
 However, it’s not always possible to use Bootstrap for your entire website. Often the website’s main CSS is outside of your control. 
@@ -49,14 +49,15 @@ Done!
     <meta name="description" content="">
     <title>Page1</title>
 
-    <!-- Isolated Bootstrap4 CSS - -->
+    <!-- Isolated Bootstrap4.4.1 CSS - -->
     <link rel="stylesheet" href="css4.1/bootstrapcustom.min.css" crossorigin="anonymous">   
 
     <!-- JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.12.0/js/all.js" crossorigin="anonymous"></script>
+
 
   </head>
 
@@ -75,9 +76,9 @@ Done!
 .
  
 
-## Isolated Bootstrap 4.1 CSS Styles in folder css4.1
+## Isolated Bootstrap 4.4.1 CSS Styles in folder css4.1
 
-- bootstrapcustom.min.css - default bootstrap 4.1 isolated style, demo https://getbootstrap.com/docs/4.1/examples/pricing/
+- bootstrapcustom.min.css - default bootstrap 4.4.1 isolated style, demo https://getbootstrap.com/docs/4.1/examples/pricing/
 - cerulean.min.css - isolated css based on https://bootswatch.com/cerulean/
 - darkly.min.css - isolated css https://bootswatch.com/darkly/
 - flatly.min.css - isolated css https://bootswatch.com/flatly/
